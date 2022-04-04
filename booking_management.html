@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <title>Управление бронированием</title>
+</head>
+
+<body>
+    <header align="center">
+        <div class="header">
+            <img src="media/logo.svg" class="icon" herf="#">
+            <p class="menu">Меню</p>
+            <ul>
+                <li class="headerLI">
+                    <a href="index.html#Promotions">
+                        Акции
+                    </a>
+                </li>
+                <li class="headerLI">
+                    <a href="index.html#Serch">
+                        Поиск
+                    </a>
+                </li>
+                <li class="headerLI">
+                    <a href="#">
+                        Регистрация на рейс
+                    </a>
+                </li>
+                <li class="headerLI">
+                    <a href="profile.html">
+                        Личный кабинет
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="main fill">
+        <h1>Информация о бронировании</h1>
+        <div class="profile searchForm">
+            <Form>
+                <p>Код бронирования :</p>
+                <input type="text" value="12341">
+                <p>Стоимость:</p>
+                <input type="text" value="1330 Руб.">
+            </Form>
+        </div>
+
+        <h1>Данные о рейсах</h1>
+        <div class="overflow">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Номер рейса</td>
+                        <td>Номер автобуса</td>
+                        <td>Название города отправления</td>
+                        <td>Название автовакзала отправления</td>
+                        <td>Дата отправления</td>
+                        <td>Время отправления</td>
+                        <td>Название города назначения</td>
+                        <td>Название автовакзала назначения</td>
+                        <td>Время прибытия</td>
+                        <td>Время в пути</td>
+                        <td>Вероятность поездки</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="Serch1">
+                        <td>432</td>
+                        <td>A482PH</td>
+                        <td>Рязань</td>
+                        <td>Центральный автовакзал</td>
+                        <td>20/09/2022</td>
+                        <td>10:20</td>
+                        <td>Москва</td>
+                        <td>Центральный автовакзал</td>
+                        <td>14:00</td>
+                        <td>3:40</td>
+                        <td>50%</td>
+                    </tr>
+                    <tr class="Serch2">
+                        <td>462</td>
+                        <td>A485PH</td>
+                        <td>Москва</td>
+                        <td>Центральный автовакзал</td>
+                        <td>22/09/2022</td>
+                        <td>16:20</td>
+                        <td>Рязань</td>
+                        <td>Центральный автовакзал</td>
+                        <td>20:00</td>
+                        <td>3:40</td>
+                        <td>100%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h1>Данные о поссажирах</h1>
+        <div class="overflow">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Имя</td>
+                        <td>Фамилия</td>
+                        <td>Дата рождения</td>
+                        <td>Номер документа</td>
+                        <td>Место в автобусе туда</td>
+                        <td>Место в автобусе обратно</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Иван</td>
+                        <td>Иванов</td>
+                        <td>16/06/1998</td>
+                        <td>26 34 4895153</td>
+                        <td> D6 </td>
+                        <td> B8</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="profile searchForm">
+            <a href="seat.html"><input class="button" type="button" value="Выбрать места"></a>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <p>Телефон “8 (800) 100-10-10”</p>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="login.html">Login</a>
+            </li>
+            <li>
+                <a href="register.html">Sign up</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+            <li>
+                <a href="">News</a>
+            </li>
+            <li>
+                <a href="">Return</a>
+            </li>
+            <li>
+                <a href="">Feedback</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<title>Личный кабинет</title>
+</head>
+
+<body>
+	<header align="center">
+		<div class="header">
+			<img src="media/logo.svg" class="icon" herf="#">
+			<p class="menu">Меню</p>
+			<ul>
+				<li class="headerLI">
+					<a href="index.html#Promotions">
+						Акции
+					</a>
+				</li>
+				<li class="headerLI">
+					<a href="index.html#Serch">
+						Поиск
+					</a>
+				</li>
+				<li class="headerLI">
+					<a href="#">
+						Регистрация на рейс
+					</a>
+				</li>
+				<li class="headerLI">
+					<a href="profile.html">
+						Личный кабинет
+					</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+
+	<div class="main fill">
+		<h1>Информация о пользователе</h1>
+		<div class="searchForm profile">
+			<Form>
+				<p>Фамилия</p>
+				<input type="text" readonly="true" value="Иванов">
+			</Form>
+			<Form>
+				<p>Имя</p>
+				<input type="text" readonly="true" value="Иван">
+			</Form>
+			<Form>
+				<p>Количество поездок</p>
+				<input type="number" readonly="true" value="10">
+			</Form>
+			<input class="button" type="button" value="Выйти из аккаунта">
+		</div>
+		<h1>Предстоящие бронирование</h1>
+		<div class="overflow">
+			<table>
+				<thead>
+					<tr>
+						<td>Код бронирования</td>
+						<td>Дата отправления</td>
+						<td>Время отправления</td>
+						<td>Время прибытия</td>
+						<td>Название автовокзала отправления</td>
+						<td>Название автовокзала назначения</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>12341</td>
+						<td>20/09/2022</td>
+						<td>10:20</td>
+						<td>14:00</td>
+						<td>Центральный автовокзал г.Рязань</td>
+						<td>Центральный автовокзал г.Москва</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+
+	<footer>
+		<p>Телефон “8 (800) 100-10-10”</p>
+		<ul>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="login.html">Login</a>
+			</li>
+			<li>
+				<a href="register.html">Sign up</a>
+			</li>
+			<li>
+				<a href="">Contact</a>
+			</li>
+			<li>
+				<a href="">News</a>
+			</li>
+			<li>
+				<a href="">Return</a>
+			</li>
+			<li>
+				<a href="">Feedback</a>
+			</li>
+		</ul>
+	</footer>
+</body>
+
+</html>

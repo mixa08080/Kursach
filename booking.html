@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <title>Бронирование</title>
+</head>
+
+<body>
+    <header align="center">
+        <div class="header">
+            <img src="media/logo.svg" class="icon" herf="#">
+            <p class="menu">Меню</p>
+            <ul>
+                <li class="headerLI">
+                    <a href="index.html#Promotions">
+                        Акции
+                    </a>
+                </li>
+                <li class="headerLI">
+                    <a href="index.html#Serch">
+                        Поиск
+                    </a>
+                </li>
+                <li class="headerLI">
+                    <a href="#">
+                        Регистрация на рейс
+                    </a>
+                </li>
+                <li class="headerLI">
+                    <a href="profile.html">
+                        Личный кабинет
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="main fill">
+
+        <h1>Данные о рейсах</h1>
+        <div class="overflow">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Номер рейса</td>
+                        <td>Название города отправления</td>
+                        <td>Название автовакзала отправления</td>
+                        <td>Дата отправления</td>
+                        <td>Время отправления</td>
+                        <td>Название города назначения</td>
+                        <td>Название автовакзала назначения</td>
+                        <td>Время прибытия</td>
+                        <td>Стоимость</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="Serch1">
+                        <td>432</td>
+                        <td>Рязань</td>
+                        <td>Центральный автовакзал</td>
+                        <td>20/09/2022</td>
+                        <td>10:20</td>
+                        <td>Москва</td>
+                        <td>Центральный автовакзал</td>
+                        <td>14:00</td>
+                        <td>650 Руб.</td>
+                    </tr>
+                    <tr class="Serch2">
+                        <td>462</td>
+                        <td>Москва</td>
+                        <td>Центральный автовакзал</td>
+                        <td>22/09/2022</td>
+                        <td>16:20</td>
+                        <td>Рязань</td>
+                        <td>Центральный автовакзал</td>
+                        <td>20:00</td>
+                        <td>680 Руб.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h1>Данные о поссажирах</h1>
+        <div class="overflow">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Имя</td>
+                        <td>Фамилия</td>
+                        <td>Дата рождения</td>
+                        <td>Номер документа</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Иван</td>
+                        <td>Иванов</td>
+                        <td>16/06/1998</td>
+                        <td>26 34 4895153</td>
+                        <td><input class="button" type="button" value="Удалить"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="search" id="Serch">
+            <h1>Добавить поссажира</h1>
+            <div class="searchForm">
+                <Form>
+                    <p>Имя</p>
+                    <input type="text">
+                </Form>
+                <Form>
+                    <p>Фамилия</p>
+                    <input type="text">
+                </Form>
+                <Form>
+                    <p>Дата рождения</p>
+                    <input type="date">
+                </Form>
+                <Form>
+                    <p>Номер документа</p>
+                    <input type="text">
+                </Form>
+                <input class="button" type="button" value="Добавить">
+            </div>
+        </div>
+        <div class="profile searchForm">
+            <Form>
+                <p>Финальная стоимость:</p>
+                <input type="text" value="1330 Руб.">
+            </Form>
+            <a href="booking_management.html"><input class="button" type="button" value="Забронировать"></a>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <p>Телефон “8 (800) 100-10-10”</p>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="login.html">Login</a>
+            </li>
+            <li>
+                <a href="register.html">Sign up</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+            <li>
+                <a href="">News</a>
+            </li>
+            <li>
+                <a href="">Return</a>
+            </li>
+            <li>
+                <a href="">Feedback</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

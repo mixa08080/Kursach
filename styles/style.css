@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../media/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(../media/fonts/Roboto-Medium.ttf);
+}
+body{
+    font-family: 'Roboto-Regular';
+    margin: 0;
+}
+.header{
+    width: 90%;
+    min-width: 1200px;
+    height: 60px;
+    background-color: rgb(12, 180, 180);
+    border-radius: 15px;
+    text-align: right;
+    display: inline-block;
+}
+.icon{
+ max-height: 30px;
+ float: left;
+ margin: 15px;
+}
+.menu{
+    display: none;
+}
+.headerLI{
+    display: inline;
+    margin: 20px;
+}
+@media (min-width: 980px) {
+    .headerLI:hover a{
+        color: blue;
+        font-size: 24px;
+    }
+}
+.headerLI a{
+    transition: .2s font-size;
+    text-decoration: none;
+    color: rgb(9, 45, 92);
+    font-family: 'Roboto-Medium';
+    font-size: 20px;   
+}
+.main{
+    max-width: 1200px;
+    background-color: rgba(0, 255, 255, 0.459);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.main h1{
+    font-family: 'Roboto-Medium';
+    font-size: 30px;
+    color: rgb(22, 115, 151);
+}
+.main p{
+    color: rgb(4, 42, 78);
+    font-size: 14px;
+
+}
+.trust{
+    margin: 3%;
+    margin-top: 10px;
+}
+.search{
+    margin: 10px;
+}
+.searchForm form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 350px;
+    margin: 10px;
+}
+.searchForm p{
+    margin: auto;
+    margin-left: 0;
+}
+.button{
+    padding: 4px;
+    width: 60px;
+    margin-left: 10px;
+    font-family: 'Roboto-Medium';
+    font-size: 14px;
+    color: rgb(4, 42, 78);
+    background-color: rgb(12, 180, 180);
+    border-radius: 5px;
+    border-width: 0px;
+}
+.promptions{
+    margin: 3%;
+    margin-top: 50px;
+    padding: 5px;
+}
+.promptions1{
+    display: flex;
+    flex-direction: row;
+}
+.promptions2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.promptions img{
+    max-width: 60%;
+    margin: 5px;
+}
+.promption{
+    background-color: rgba(12, 180, 180, 0.514);
+    margin: 5px;
+    padding: 10px;
+}
+.subscription{
+    margin: 10px;
+}
+.subscription form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.subscription input{
+    margin: 5px;
+}
+.subscription .button{
+    width: auto;
+}
+div.fill{
+    padding: 10px;
+    min-height: 90vh;
+    padding-top: 30px;
+    display: block;
+}
+
+.fill .button{
+    width: auto;
+}
+.profile input:not(.button){
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(4, 42, 78);
+}
+.overflow{
+    overflow: auto;
+}
+table{
+    margin: 10px;
+    border-spacing: 0;
+}
+thead{
+    color: rgb(22, 115, 151);
+    font-size: 20px;
+}
+tbody{
+    color: rgb(4, 42, 78);
+    font-size: 16px;
+}
+td{
+    border: solid 1px rgb(4, 42, 78);
+    padding: 3px;
+}
+td .button{
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: auto;
+}
+.seat td{
+    padding: 0;
+}
+.seat td{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
+.free{
+    background-color: rgba(8, 189, 8, 0.534);
+}
+.busy{
+    background-color: rgba(255, 0, 0, 0.514);
+}
+.free input:checked + label div{
+    background-color: rgba(255, 255, 0, 0.63);
+    width: 100%;
+    height: 100%;
+}
+.seat input[type="radio"]{
+    display: none;
+}
+
+div.aaaaaaaaaaa{
+    display: flex;
+    flex-direction: row;
+}
+.aaaaaaaaaaa table{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+.aaaaaaaaaaa td{
+    width: 30px;
+    height: 30px;
+}
+.aaaaaaaaaaa .chenged{
+    background-color: rgba(255, 255, 0, 0.63);
+}
+footer{
+    background-color: rgb(0, 121, 121) ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    align-self: center;
+}
+footer p{
+    margin: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: aqua;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;;
+}
+footer li{
+    margin: 10px;
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: aqua;
+}
+@media(max-width: 1200px)  {
+    .header{
+        width: 100%;
+        min-width: initial;
+        margin: auto;
+    }
+}
+@media(max-width: 980px)  {
+    .header:hover{
+        height: auto;
+    }
+    .menu{
+        display: block;
+        font-size: 20px; 
+        color: rgb(9, 45, 92);
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .header ul{
+        display: none;
+    }
+    .header:hover ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .header li{
+        margin: 3px;
+    }
+    .headerLi:hover a{
+        color: blue;
+    }
+    .promptions img{
+        width: 100%;
+    }
+    .promptions1{
+        flex-wrap: wrap;
+    }
+    .promptions2{
+        flex-wrap: wrap;
+    }
+    .searchForm form{
+        flex-direction: column;
+    }
+    
+}
+
+
